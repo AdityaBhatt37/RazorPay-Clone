@@ -1,0 +1,6 @@
+obj = open("mypythonfile.txt","w")
+obj.write("This is first content in the file Graphic era hill university \n and Graphic era Deemed to be university")
+obj.write("\nThis is second content of the file")
+obj = open("mypythonfile.txt","r")
+str = obj.read()
+print(str)
